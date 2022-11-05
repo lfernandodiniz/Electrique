@@ -32,9 +32,7 @@ cors = CORS(app)
 @app.route("/")
 def index():
 
-
-    return render_template('accueuil.html', titulo='accueuil',
-                           )
+    return render_template('accueuil.html', titulo='accueuil')
 
 
 if __name__ == "__main__":
